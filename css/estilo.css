@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+}
+
+.hero{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+   
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px 25px 0 0;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    border: 1px solid white;
+}
+
+.hero nav a{
+    background-color: #99000030;
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background-color: #99000050;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 4px #333;
+}
+
+.hero-content p{
+    background-color: rgba(0, 0, 0, 0.7);
+    display:inline-block;
+    padding: 10px;
+    border-bottom: solid 2px white;
+    margin-top: 200px;
+    
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.content-section{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+    
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.card-1, .card-2{
+    margin-right: 2%;
+}
+
+.card p{
+    background-color: rgb(85, 85, 85);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.content-header{
+    background-color: #eee;
+    border-bottom: solid 2px #ccc;
+    padding: 10px;
+}
+
+.content-header>h2{
+    margin: 0;
+}
+
+.rodape{
+    height: 70px;
+    background-color: #686767;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    text-shadow: 2px 2px 2px black;
+    line-height: 70px;
+}
